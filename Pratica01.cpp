@@ -5,7 +5,7 @@ int main()
 {
 float a,b,c;
 int opt;
-printf("1. Suma \n2. Resta \n3. Multiplicacion \n4. Divicion");
+printf("1. Suma \n2. Resta \n3. Multiplicacion \n4. Division");
 printf("\n\nSeleccione una opcion: ");
 scanf("%d",&opt);
 
@@ -34,7 +34,7 @@ if(opt==1)
         printf("\nIntrodusca el segundo operando");
         scanf("%f",&b);
     }
-    printf("\nLa divivion es:%f ",c=a/b);
+    printf("\nLa division es:%f ",c=a/b);
     }
      else
      {
